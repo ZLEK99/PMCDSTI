@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+ENV/
+conda-meta/
+
+# Local IDE/editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large or local experiment artifacts
+data/
+save/
+results/
+cache/
+figs/
+pic/
+plot/
+ALL/
+
+# Generated model outputs/checkpoints
+*.pth
+*.pt
+*.ckpt
+*.pk
+*.pkl
+*.npy
+*.npz
+*.h5
+*.hdf5
+
+# Logs and tensorboard
+*.log
+events.out.tfevents*
+runs/
+tensorboard/
+
+# Local temporary copies
+* copy.py
+*_copy.py
+test.py
+
+# Codex/local workspace metadata
+.agents/
+.codex/
